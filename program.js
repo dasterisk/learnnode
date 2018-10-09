@@ -11,3 +11,5 @@ fs.readdir(folder, function(err, files){
 			console.log(file);
 	})
 })
+//hi this is a commit
+console.log('hi');
