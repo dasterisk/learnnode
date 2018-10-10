@@ -5,11 +5,12 @@ var folder = process.argv[2];
 var ext = '.' + process.argv[3];
 
 fs.readdir(folder, function(err, files){
-	if(err) return console.error(err);
+	if(err){
+		console.log(err);
+	}
 	files.forEach(function(file){
-		if(path.extname(file) === ext)
+		if (path.extname(file)== ext) {
 			console.log(file);
+		}
 	})
-})
-//hi this is a commit
-console.log('hi');
+});
