@@ -1,2 +1,2 @@
 # learnnode
-learn to use node
+new to node.js, and this is the repo to place excecises of 'learnyounode'.
